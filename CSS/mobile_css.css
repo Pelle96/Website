@@ -1,0 +1,27 @@
+@media screen and (max-width: 768px) {
+.btn_menu{
+display: none;
+}
+
+    header{
+    height: auto;
+}
+header, a{
+    display: block;
+
+}
+
+nav, ul{
+    display: block;
+}
+#testo1, #testo2, #testo3, #testo4, #testo5{
+display: block;
+display: auto;
+}
+img{
+    display: block;
+    display:table-row;
+}
+
+
+}

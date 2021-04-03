@@ -1,0 +1,151 @@
+body {
+  background-color: rgba(0, 0, 255, 0.322);
+  margin: 0px;
+}
+
+header {
+  background-color: rgba(41, 49, 51, 0.75);
+  display: block;
+  position: sticky;
+}
+
+.name_logo {
+  text-align: center;
+  font-size: 20px;
+  color: blanchedalmond;
+}
+
+.nav {
+  display: table-row;
+  float: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  font-family: monospace;
+}
+
+ul {
+  background: darkorange;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+li {
+  color: #fff;
+  background: darkorange;
+  display: block;
+  float: left;
+  padding: 1rem;
+  position: relative;
+  text-decoration: none;
+  transition-duration: 0.5s;
+}
+
+li a {
+  color: #fff;
+}
+
+li:hover {
+  background: red;
+  cursor: pointer;
+}
+
+ul li ul {
+  background: orange;
+  visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  left: 0;
+  display: none;
+}
+
+ul li:hover>ul, ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+ul li ul li {
+  clear: both;
+  width: 100%;
+}
+
+.carousel-container {
+  width: 60%;
+  margin: auto;
+  border: 5px solid black;
+  overflow: hidden;
+  position: relative;
+}
+.carousel-slide {
+  display: flex;
+  width: 100%;
+  /*height: 500px;*/
+}
+#prevBtn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  left: 0;
+  font-size: 30px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+#nextBtn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  right: 0;
+  font-size: 30px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.Prova1 { 
+   width: 60%;
+  margin: auto;
+  border: 5px solid black;
+  overflow: hidden;
+  position: relative;
+}
+.Try2{
+  display: flex;
+  width: 100%;
+  /*height: 500px;*/
+}
+#prevbtn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  left: 0;
+  font-size: 30px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+#nextbtn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  right: 0;
+  font-size: 30px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.contenitore {
+  display: block;
+  text-align: center;
+}
+.Social_ico {
+  display: inline-block;
+  width: 4%; 
+}
+.pagina, .copyright {
+  text-align: center;
+}

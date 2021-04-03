@@ -1,0 +1,21 @@
+***BREAK THE UNBREAKEBLE***
+
+AT "INDEX"
+
+-the last paragraphy(p5) is broken. Whenever i use: margin-left, margin, padding... doesn't work.
+-on google when i use tools fo programmer i have this messagge: {The value "device" for key "width" is invalid, and has been ignored.(index.htm:10)}.(all the page)
+-The navbar is correct but i don't find the solutio to put it in the center of the pag(all the page)
+
+AT PAGE 3
+
+- FIRST SLIDE SHOW , WHEN YOU MAKE CRHOME SMALLER THEN BEFORE YOU SEE THE ATHER IMAGE.
+
+-------------------------------------------------
+
+***IMPROVEMENT***
+
+I've create a "mobile.js" where i've began to write a code to adapt every page for mobile/tablet. It's not finished yet.
+
+Use the command '<sectio></sectio>' to divide the same album
+
+if you have a other improvent

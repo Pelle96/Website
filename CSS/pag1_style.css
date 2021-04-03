@@ -1,0 +1,218 @@
+body{
+    background-color: rgba(78, 34, 33, 0.555);
+    margin: 0px;
+}
+header{
+  background-color: rgba(41, 49, 51, 0.75);
+  display: block;
+  top: 0%;
+  position: sticky;
+}
+.name_logo{
+  text-align: center;
+  color: blanchedalmond;
+  font-size: 20px;
+  }
+
+
+.nav{
+  display:table-row;
+  float: none;
+}
+a {
+  text-decoration: none;
+} 
+nav {
+  font-family: monospace;
+} 
+ul {
+  background: darkorange;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+} 
+li {
+  color: #fff;
+  background: darkorange;
+  display: block;
+  float: left;
+  padding: 1rem;
+  position: relative;
+  text-decoration: none;
+  transition-duration: 0.5s;
+}   
+li a {
+  color: #fff;
+} 
+li:hover {
+  background: red;
+  cursor: pointer;
+}  
+ul li ul {
+  background: orange;
+  visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  left: 0;
+  display: none;
+}  
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+ul li ul li {
+  clear: both;
+  width: 100%;
+  
+}
+.Ve1{
+  margin-left:0%;
+  width: 25%;
+  display: block;
+  transition: 1.0s;
+}
+.Ve1:hover{
+  filter:grayscale(100%);
+  transform: scale(1.1);
+}
+.Ve{
+  float:none;
+  margin-left:30%;
+  width: 25%;
+  transition: 1.0s;
+  position: absolute;
+  
+}
+.Ve:hover{
+  filter:grayscale(100%);
+  transform: scale(1.1);
+}
+
+.Ve {
+  visibility: hidden;
+  position: absolute;
+  display: none;
+}
+.Bb1{
+  margin-left:0%;
+  width: 25%;
+  display: block;
+  transition: 1.0s;
+}
+.Bb1:hover{
+  filter:grayscale(100%);
+  transform: scale(1.1);
+}
+.Bb{
+  display: block;
+  width: 25%;
+  transition: 1.0s;
+  position: absolute;
+  transition: 1.0s;
+}
+.Bb:hover{
+  filter:grayscale(100%);
+  transform: scale(1.1);
+}
+.Bb {
+  visibility: hidden;
+  position: absolute;
+  display: none;
+}
+.Cl1{
+  display: block;
+  margin-left:0%;
+  width: 25%;
+  transition: 1.0s;
+}
+.Cl1:hover{
+  filter:grayscale(100%);
+  transform: scale(1.1);
+}
+.Cl{
+  display: block;
+  width: 25%;
+  transition: 1.0s;
+  margin-left:50%;
+  transition: 1.0s;
+}
+.Cl:hover{
+  filter:grayscale(100%);
+  transform: scale(1.1);
+}
+.Cl {
+  visibility: hidden;
+  position: absolute;
+  display: none;
+}
+.St1{
+  display: block;
+  margin-left:0%;
+  width: 25%;
+  transition: 1.0s;
+}
+.St1:hover{
+  filter:grayscale(100%);
+  transform: scale(1.1);
+}
+.St{
+  display: block;
+  width: 25%;
+  transition: 1.0s;
+  margin-left:75%;
+  transition: 1.0s;
+}
+.St:hover{
+  filter:grayscale(100%);
+  transform: scale(1.1);
+}
+.St{
+  visibility: hidden;
+  position: absolute;
+  display: none;
+}
+.Ps1{
+  display: block;
+  margin-left:0%;
+  width: 25%;
+  transition: 1.0s;
+}
+.Ps1:hover{
+  filter:grayscale(100%);
+  transform: scale(1.1);
+}
+.Ps{
+  display: block;
+  width: 25%;
+  display: inline-block;
+  transition: 1.0s;
+  margin: left 50%;
+}
+.Ps:hover{
+  filter:grayscale(100%);
+  transform: scale(1.1);
+}
+.Ps{
+  visibility: hidden;
+  position: absolute;
+  display: none;
+}
+.contenitore{
+  display: block;
+  text-align: center;
+}
+.Social_ico{
+  display: inline-block;
+  width: 4%;
+}
+.pagina, .copyright{
+  text-align: center;
+} 
+.copyright{
+  margin-bottom: 0%;
+} 
