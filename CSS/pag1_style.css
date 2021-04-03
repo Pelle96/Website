@@ -72,8 +72,9 @@ ul li ul li {
 }
 .Ve1{
   margin-left:0%;
+  margin-right:100%;
   width: 25%;
-  display: block;
+  display: inline;
   transition: 1.0s;
 }
 .Ve1:hover{
@@ -100,8 +101,9 @@ ul li ul li {
 }
 .Bb1{
   margin-left:0%;
+  margin-right:100%;
   width: 25%;
-  display: block;
+  display: inline;
   transition: 1.0s;
 }
 .Bb1:hover{
@@ -109,7 +111,6 @@ ul li ul li {
   transform: scale(1.1);
 }
 .Bb{
-  display: block;
   width: 25%;
   transition: 1.0s;
   position: absolute;
@@ -125,8 +126,9 @@ ul li ul li {
   display: none;
 }
 .Cl1{
-  display: block;
+  display: inline;
   margin-left:0%;
+  margin-right:100%;
   width: 25%;
   transition: 1.0s;
 }
@@ -151,7 +153,8 @@ ul li ul li {
   display: none;
 }
 .St1{
-  display: block;
+  display: inline;
+  margin-right:100%;
   margin-left:0%;
   width: 25%;
   transition: 1.0s;
@@ -177,7 +180,8 @@ ul li ul li {
   display: none;
 }
 .Ps1{
-  display: block;
+  display: inline;
+  margin-right:100%;
   margin-left:0%;
   width: 25%;
   transition: 1.0s;
