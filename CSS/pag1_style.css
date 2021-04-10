@@ -70,142 +70,39 @@ ul li ul li {
   width: 100%;
   
 }
-.Ve1{
-  margin-left:0%;
-  margin-right:100%;
-  width: 25%;
-  display: inline;
+
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.gallery > div {
+  display: inline-block;
+  width: 30%;
+}
+
+.Ve1, .Bb1, .Cl1, .St1, .Ps1 {
+  width: 100%;
   transition: 1.0s;
 }
-.Ve1:hover{
-  filter:grayscale(100%);
-  transform: scale(1.1);
-}
-.Ve{
-  float:none;
-  margin-left:30%;
-  width: 25%;
-  transition: 1.0s;
-  position: absolute;
-  
-}
-.Ve:hover{
+
+.Ve1:hover, .Bb1:hover, .Cl1:hover, .St1:hover, .Ps1:hover {
   filter:grayscale(100%);
   transform: scale(1.1);
 }
 
-.Ve {
-  visibility: hidden;
-  position: absolute;
+.Ve, .Bb, .Cl, .St, .Ps {
   display: none;
 }
-.Bb1{
-  margin-left:0%;
-  margin-right:100%;
-  width: 25%;
-  display: inline;
-  transition: 1.0s;
-}
-.Bb1:hover{
-  filter:grayscale(100%);
-  transform: scale(1.1);
-}
-.Bb{
-  width: 25%;
-  transition: 1.0s;
-  position: absolute;
-  transition: 1.0s;
-}
-.Bb:hover{
-  filter:grayscale(100%);
-  transform: scale(1.1);
-}
-.Bb {
-  visibility: hidden;
-  position: absolute;
-  display: none;
-}
-.Cl1{
-  display: inline;
-  margin-left:0%;
-  margin-right:100%;
-  width: 25%;
-  transition: 1.0s;
-}
-.Cl1:hover{
-  filter:grayscale(100%);
-  transform: scale(1.1);
-}
-.Cl{
-  display: block;
-  width: 25%;
-  transition: 1.0s;
-  margin-left:50%;
-  transition: 1.0s;
-}
-.Cl:hover{
-  filter:grayscale(100%);
-  transform: scale(1.1);
-}
-.Cl {
-  visibility: hidden;
-  position: absolute;
-  display: none;
-}
-.St1{
-  display: inline;
-  margin-right:100%;
-  margin-left:0%;
-  width: 25%;
-  transition: 1.0s;
-}
-.St1:hover{
-  filter:grayscale(100%);
-  transform: scale(1.1);
-}
-.St{
-  display: block;
-  width: 25%;
-  transition: 1.0s;
-  margin-left:75%;
-  transition: 1.0s;
-}
-.St:hover{
-  filter:grayscale(100%);
-  transform: scale(1.1);
-}
-.St{
-  visibility: hidden;
-  position: absolute;
-  display: none;
-}
-.Ps1{
-  display: inline;
-  margin-right:100%;
-  margin-left:0%;
-  width: 25%;
-  transition: 1.0s;
-}
-.Ps1:hover{
-  filter:grayscale(100%);
-  transform: scale(1.1);
-}
-.Ps{
-  display: block;
-  width: 25%;
-  display: inline-block;
-  transition: 1.0s;
-  margin: left 50%;
-}
-.Ps:hover{
-  filter:grayscale(100%);
-  transform: scale(1.1);
-}
-.Ps{
-  visibility: hidden;
-  position: absolute;
-  display: none;
-}
+
+
+
+
+
+
 .contenitore{
   display: block;
   text-align: center;
